@@ -1,0 +1,104 @@
+{
+  "mocks": [
+    {
+      "name": "myMockServer",
+      "requests": [
+        17,
+        18,
+        19
+      ],
+      "id": 9
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "status": 200,
+      "body": {},
+      "endPoint": "api",
+      "mockName": "new-mock",
+      "params": {
+        "name": "adarsh"
+      },
+      "response": {
+        "name": "Adarsh"
+      },
+      "id": 5
+    },
+    {
+      "method": "GET",
+      "status": 200,
+      "body": {},
+      "endPoint": "api",
+      "mockName": "new-mock",
+      "params": {
+        "asd": "asd"
+      },
+      "response": {},
+      "id": 6
+    },
+    {
+      "method": "PUT",
+      "status": 200,
+      "body": {},
+      "endPoint": "api",
+      "params": {
+        "as": "asd"
+      },
+      "response": {
+        "status": "data"
+      },
+      "id": 7
+    },
+    {
+      "method": "GET",
+      "status": 200,
+      "body": {},
+      "endPoint": "setData",
+      "mockName": "json-server",
+      "params": {
+        "asdadasd": "asd"
+      },
+      "response": {},
+      "id": 8
+    },
+    {
+      "method": "GET",
+      "status": 200,
+      "body": {},
+      "endPoint": "status",
+      "params": {},
+      "response": {
+        "status": true
+      },
+      "mockName": "myMockServer",
+      "id": 17
+    },
+    {
+      "method": "POST",
+      "status": 200,
+      "body": {},
+      "endPoint": "status",
+      "params": {},
+      "response": {
+        "status": "POST"
+      },
+      "mockName": "myMockServer",
+      "id": 18
+    },
+    {
+      "method": "GET",
+      "status": 200,
+      "body": {},
+      "endPoint": "statusPost",
+      "params": {
+        "as": "12"
+      },
+      "response": {
+        "pi": 3.14
+      },
+      "mockName": "myMockServer",
+      "id": 19
+    }
+  ]
+}
